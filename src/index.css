@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+:root {
+  --red-color-1: #ff6464;
+  --blue-color-1: #00a8cc;
+  --blue-color-2: #edf7fa;
+  --dark-color-1: #21243d;
+  --grey-color-1: #8695a4;
+  --grey-color-2: #e0e0e0;
+  --white-color-1: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: var(--dark-color-1);
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  background-color: var(--white-color-1);
+}
